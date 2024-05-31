@@ -8,7 +8,7 @@ public class MesinHitungTest {
 
     @Test
     public void testPenjumlahan() {
-        assertEquals(0.0, Mesin_Hitung.penjumlahan(2.0, 3.0), 0.001);
+        assertEquals(5.0, Mesin_Hitung.penjumlahan(2.0, 3.0), 0.001);
         assertEquals(-1.0, Mesin_Hitung.penjumlahan(-2.0, 1.0), 0.001);
     }
 
